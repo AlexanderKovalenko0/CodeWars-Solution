@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/56d19b2ac05aed1a20000430/train/javascript
+
+function betweenExtremes(numbers) {
+    let min = Math.min(...numbers);
+    let max = Math.max(...numbers);
+    let diff = max - min
+    return diff
+}
